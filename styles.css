@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+    background-color: #219191;
+    background: radial-gradient(rgba(179,255,255,0.5), rgb(178, 252, 160),rgb(235, 228, 138)) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    font-size: 30px;
+    color:#150f6e;
+}
+.data-div{
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+.inner-div{
+    margin: 20px;
+    font-size: 25px;
+    color: #0f535f;
+    font-weight: 700;
+    font-family: cursive;
+    margin: 20px;
+}
+input{
+    margin:15px;
+    font-size: 16px;
+}
+input[type="radio"]{
+    margin:20px;
+    margin-right:0;
+}
+input[type="button"]{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: "Comic Sans MS",cursive,sans-serif;
+    background-color: #001a66;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+    margin: 10px;
+}
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+table{
+    width:fit-content;
+    overflow:auto;
+}
+table ,td ,th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding:8px;
+}
+th {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e61588;
+    background:linear-gradient(to left,rgb(232, 248, 91),rgb(122, 240, 161));
+  }
+  
+td{
+    font-size: 15px;
+    color: rgb(48, 42, 100);
+    font-weight: 500 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:linear-gradient(to left,rgb(214, 189, 252),rgb(176, 228, 241));
+}
+caption{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.visible{
+    display:block;
+}
+.hide{
+    display: none;
+}
